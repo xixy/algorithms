@@ -9,9 +9,7 @@ def bubble_sort(unsorted):
     while i > 0:
         for j in range(0,i):
             if unsorted[j] > unsorted[j+1]:
-                temp = unsorted[j]
-                unsorted[j] = unsorted[j+1]
-                unsorted[j+1] = temp
+                unsorted[j],unsorted[j+1]=unsorted[j+1],unsorted[j]
         i = i - 1
     return unsorted
 

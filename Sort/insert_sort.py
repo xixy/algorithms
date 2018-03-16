@@ -1,4 +1,4 @@
-# coding: utf-8
+# coding=utf-8
 
 def find_insert_point(sorted_list,x):
     '''

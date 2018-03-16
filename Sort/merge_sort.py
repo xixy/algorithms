@@ -35,5 +35,5 @@ def merge_sort(unsorted):
     return result
 
 if __name__ == '__main__':
-    a = [1,4,3,2,-10,4,56]
+    a = [1,4,3,2,-10,4,56,7]
     print merge_sort(a)
